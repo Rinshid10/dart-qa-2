@@ -1,0 +1,6 @@
+// Input: s = "aa", p = "a"
+// Output: false
+// Explanation: "a" does not match the entire string "aa".
+void main (){
+  
+}
