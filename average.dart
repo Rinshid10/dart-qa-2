@@ -1,10 +1,14 @@
-// Write Dart code to find the average of all elements in a list of doubles. doubleList = [2.5, 1.5, 3.0, 4.5];
+// ({name: "John", marks: [25, 45, 10, 30] })({name: "John", marks: [25, 45, 10, 30] })
 void main() {
-  List<double> doubleList = [2.5, 1.5, 3.0, 4.5];
-  double sum = 0;
-  for (var let in doubleList) {
-    sum += let;
+  Map a = {
+    "name": "John",
+    "marks":[50, 45, 40, 40, 25]
+  };
+  var b = [];
+  for (var c in a['marks']) {
+    b.add(c);
   }
-  var a = sum / doubleList.length;
-  print(a);
+  var g = b.reduce((h, k) => h + k);
+  var j = g / b.length;
+  print(j);
 }
